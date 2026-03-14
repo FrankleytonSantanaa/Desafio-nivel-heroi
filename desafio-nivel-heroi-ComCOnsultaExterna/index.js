@@ -2,13 +2,13 @@ let xp = 1000;
 let nivel = ["Ferro", "Bronze", "Prata", "Ouro", "Platina", "Ascendente", "Imortal", "Radiante"];
 
 let nomeDeHeroi = [
-    ["Lkj", xp, nivel[0]], // Ferro
-    ["mrt", xp, nivel[3]], // Ouro
-    ["hgr", xp, nivel[7]]  // Ascendente
+    ["Lkj", xp, nivel[0]], 
+    ["mrt", xp, nivel[3]], 
+    ["hgr", xp, nivel[7]]  
 ];
 
 for (let c = 0; c < nomeDeHeroi.length; c++) {
-    let nivelHeroi = nomeDeHeroi[c][2]; // agora é string
+    let nivelHeroi = nomeDeHeroi[c][2]; 
 
     // Adiciona XP conforme nível atual
     if (nivelHeroi === "Ferro" || nivelHeroi === "Bronze") {
